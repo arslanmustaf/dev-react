@@ -1,0 +1,78 @@
+.container{
+    background-image: url(../assets/aboutmain.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 542px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 4.2em;;
+}
+.heading {
+    color: var(--primary);
+    width: 60%;
+    padding: 12px;
+}
+
+.heading h1 {
+    font-size: 56px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.terms{
+    width: 70%;
+    margin: 10px auto;
+    padding: 1em 4.2em;
+}
+.terms h1{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px auto 10px auto;
+}
+.terms ul{
+    padding: 10px;
+    margin: 10px;
+}
+.terms li{
+    font-size: 18px;
+    list-style: decimal;
+    margin: 12px auto;
+    line-height: 2em;
+}
+
+
+
+@media (max-width: 796px){
+    .heading h1 {
+        font-size: 42px;
+    }
+    .terms{
+        padding: 1em 2em;
+    }
+}
+@media (max-width: 652px){
+    .container{
+        align-items: center;
+        justify-content: center;
+        padding: 2em;
+    }
+    .heading{
+        width: 100%;
+    }
+    .terms{
+        width: 90%;
+    }
+}
+@media (max-width: 562px){
+    .heading h1{
+        font-size: 38px;
+    }
+    .terms{
+        padding: 1em;
+    }
+    .terms ul{
+        width: 95%;
+        margin: auto;
+    }
+}

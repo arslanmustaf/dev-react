@@ -1,0 +1,206 @@
+.contContainer {
+    background-image: url(../assets/aboutmain.webp);
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 542px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 4.2em;
+}
+
+.heading {
+    color: var(--primary);
+    width: 60%;
+    padding: 12px;
+}
+
+.heading h1 {
+    font-size: 56px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.inTouch {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primary);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 4.2em;
+}
+
+.contactForm {
+    background-color: transparent;
+    width: 48%;
+    padding: 10px;
+}
+
+.contactForm h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 8px 2px 4px 12px;
+}
+
+.contactForm form {
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contactForm input,
+.contactForm .input,
+.contactForm textarea {
+    background-color: #fff;
+    border: 1px solid rgba(128, 128, 128, 0.932);
+    outline: none;
+    border-radius: 15px;
+    width: 80% !important;
+    padding: 10px 15px;
+    height: 50px;
+    margin: 10px auto;
+}
+
+.contactForm input::placeholder {
+    font-size: 18px;
+}
+.contactForm .input{
+    padding: 10px 15px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactForm select {
+    border: 1px solid transparent;
+    outline: none;
+    width: 96%;
+    font-size: 18px;
+color: rgba(128, 128, 128, 0.932);
+}
+
+.contactForm button {
+    border: 1px transparent;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    background-color: #fff;
+    color: var(--primary);
+    padding: 1rem;
+    transition: .5s;
+    margin: 1em auto;
+}
+.query{
+    height: 100px !important;
+    font-size: 17px;
+}
+
+.contInTouch {
+    width: 50%;
+    height: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12px;
+}
+.contInTouch h1{
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contInTouch p{
+    padding: 10px;
+    font-size: 20px;
+    line-height: 1.8em;
+}
+.address{
+    width: 100%;
+}
+.address li{
+    font-size: 20px;
+    margin: 10px;
+}
+.address li i{
+    margin-right: 12px;
+    color: var(--primary);
+}
+@media (max-width: 1002px) {
+    .inTouch{
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+    .contactForm{
+        width: 98%;
+    }
+    .contactForm input,.contactForm .select{
+        width: 80%;
+    }
+    .contInTouch{
+        width: 98%;
+    }
+}
+@media (max-width: 796px){
+    .heading h1 {
+        font-size: 42px;
+        /* font-weight: 400; */
+    }
+    .contactForm input, .contactForm .input{
+        width: 96%;
+    }
+    .contactForm form button{
+        font-size: 18px;
+        margin: 10px;
+        /* width: 92%; */
+    }
+    .contInTouch p{
+        padding: 10px 4px;
+        font-size: 16px;
+        line-height: 1.6em;
+    }
+    .address li{
+        font-size: 16px;
+    }
+}
+@media (max-width: 652px){
+    .contContainer{
+        align-items: center;
+        justify-content: center;
+        padding: 2em;
+    }
+    .heading{
+        width: 100%;
+    }
+    .inTouch{
+        padding: 2em;
+    }
+}
+@media (max-width: 562px){
+    .inTouch{
+        padding: 10px;
+    }
+    .contactForm{
+        padding: 0;
+        width: 100%;
+    }
+    .contactForm form{
+        width: 100%;
+    }
+    .contactForm button{
+        font-size: 18px;
+    }
+    .contInTouch p{
+        line-height: 1.8em;
+    }
+    .address li{
+        margin: 14px 0;
+    }
+}

@@ -1,0 +1,63 @@
+.portContainer {
+    background-image: url(../assets/aboutmain.webp);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 462px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 4.2em;
+}
+.heading {
+    width: 50%;
+    padding: 12px;
+}
+
+.heading h1 {
+    color: var(--primary);
+    font-size: 56px;
+    font-weight: 600;
+}
+.workImages{
+    width: 100vw;
+    padding: 1em;
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.imgDiv{
+    width: 28%;
+    margin: 10px;
+}
+.imgDiv img{
+    border-radius: 50px;
+    width: 100%;
+    transition: .2s;
+}
+.imgDiv img:hover{
+    opacity: 70%;
+
+}
+.slider{
+    width: 100vw;
+    background-color: #d3cfcf;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width:1005px){
+    .portContainer{
+         background-size: 100% 446px;
+    }
+    .portContainer h1{
+        font-size: 38px;
+    }
+    .imgDiv{
+    width: 90%;
+}
+
+}

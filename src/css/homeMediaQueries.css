@@ -1,0 +1,544 @@
+  @media(max-width:1206px) {
+    .headerList{
+      width: 60%;
+    }
+    footer,footer::before{
+      height: 410px;
+    }
+  }
+  @media(max-width:1100px) {
+    .empowerSec {
+      width: 100vw;
+      height: 622px;
+    }
+  }
+  @media(max-width:1062px) {
+    .inDiv{
+      width: 29%;
+    }
+    .empowerdetail{
+      width: 40%;
+    }
+    .Headings p {
+      letter-spacing: .2px;
+    }
+  }
+  @media(max-width:1006px) {
+    .header {
+      width: 100%;
+    }
+    /* .detail:nth-child(3){
+      margin-top: unset;
+    } */
+  
+    .logo {
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+  
+    nav {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .headerList {
+      display: none;
+    }
+  
+    .searchBar {
+      display: none;
+    }
+  
+    .hamburgerDiv {
+      display: block;
+    }
+    .mainUl li ul {
+      display: flex;
+      flex-flow: column;
+      border-radius: 20px;
+      width: max-content;
+      background-color: #fff;
+      margin-top: 15px;
+      opacity: 0;
+       visibility: hidden;
+      width: 100%;
+      background-color: transparent;
+    }
+  
+    .Headings {
+      width: 67%;
+    }
+  
+    .Headings h1 {
+      font-size: 30px;
+    }
+  
+    .Headings h2 {
+      font-size: 80px;
+    }
+  
+  
+    .detail {
+      width: 34%;
+      margin: 14px;
+    }
+  
+    .designs h3 {
+      font-size: 50px;
+      text-align: center;
+    }
+  
+    .inSecret {
+      width: 45%;
+    }
+  
+    .empowerSec {
+      min-height: 678px;
+    }
+  }
+  @media(max-width:926px) {
+    .Container {
+      justify-content: center;
+    }
+  
+    .Headings {
+      width: 80%;
+    }
+  
+    .header {
+      width: 100%;
+    }
+    .empowerSec {
+      width: 100vw;
+      height: fit-content;
+      flex-wrap: wrap;
+      padding: 4px;
+    }
+    .inDiv{
+      width: 42%;
+      height: fit-content;
+    }
+    .divInDiv{
+      align-items: center;
+      justify-content: center;
+    }
+    .empowerdetail{
+      width: 80%;
+      margin-top: 2em;
+    }
+    .empowerdetail p{
+      line-height: 2em;
+      letter-spacing: 1px;
+    }
+    .estimate{
+     height: 350px; 
+    }
+    .secretDiv{
+      padding: 1em 0 0 0;
+    }
+    footer,
+    footer::before{
+      height: 448px;
+    }
+  }
+  @media(max-width:796px) {
+    .logo {
+      width: 98%;
+    }
+  
+    .Headings {
+      width: 85%;
+    }
+  
+    .Headings h1 {
+      font-size: 25px;
+    }
+  
+    .Headings h2 {
+      font-size: 70px;
+    }
+  
+    .btns {
+      width: 328px;
+    }
+  
+    .detail {
+      width: 88%;
+      margin: 1.3em;
+    }
+  
+    .detail img {
+      width: 120px;
+    }
+  
+    .detail h3 {
+      margin: 12px;
+    }
+  
+    .detail p {
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .designs {
+      width: 100%;
+      height: fit-content;
+    }
+    .designs h3{
+      padding: 1em 0;
+    }
+    .readBtn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .aboutDesigns {
+      width: 100%;
+    }
+  
+    .groupImg {
+      width: 100%;
+    }
+  
+    .inDiv {
+      width: 100%;
+      margin:0px 14px;
+    }
+  
+    .inDiv .divInDiv {
+      height: 50% !important;
+      display: flex;
+      flex-direction: column;
+      align-items: center !important;
+      margin: 10px auto;
+  
+    }.inDiv:nth-child(2) .divInDiv:nth-child(2),
+    .inDiv:nth-child(1) .divInDiv:nth-child(1) {
+      margin: 20px auto;
+  }
+  
+    .empowerdetail {
+      margin: 2em 1px;
+      width: 80%;
+    }
+  
+    .empowerdetail p {
+      font-size: 20px;
+      line-height: 2em;
+      padding: 26px 10px 10px 10px;
+    }
+  
+    .values {
+      flex-direction: column;
+    }
+  
+    .value {
+      margin: 12px;
+    }
+  
+    .estimateDiv {
+      width: 90%;
+      flex-flow: column;
+      text-align: center;
+    }
+  
+    .estimateDiv h1 {
+      margin: 1em;
+    }
+  
+    .secret {
+      padding: 4px 0;
+    }
+  
+    .secret h1 {
+      text-align: center;
+    }
+  
+    .secretDiv {
+      padding: 4px 2em;
+      width: 100%;
+    }
+  
+    .inSecret {
+      width: 100%;
+      height: fit-content;
+    }
+    .inSecret p{
+      font-size: 20px;
+    }
+    footer,
+    footer::before{
+      height: 800px;
+      /* padding: 1em; */
+    }
+  
+    .foot {
+      flex-wrap: wrap;
+    }
+  
+    .inFoot {
+      width: 90%;
+    }
+  }
+  @media(max-width:652px) {
+    .header {
+      padding: 4px 2.2em;
+    }
+  
+    .Container {
+      justify-content: center;
+    }
+  
+    .Headings {
+      width: 90%;
+      margin: 3.6em 0 0 0;
+    }
+  
+    .Headings h1 {
+      font-size: 26px;
+    }
+  
+    .Headings h2 {
+      font-size: 60px;
+    }
+    footer,
+    footer::before{
+      height: 846px;
+    }
+    footer{
+      padding: 10px 1.7em;
+    }
+    .footDetail {
+      padding: 8px;
+      flex-wrap: wrap;
+    }
+  
+    .footDetail p {
+      text-align: center;
+      width: 100%;
+      margin: 0 auto 10px auto;
+    }
+  
+    .linkIcon {
+      width: 80%;
+      margin: 10px auto;
+    }
+  }
+  @media(max-width:562px) {
+  
+    /* .header{
+      width: 90%;
+    } */
+    .mainContainer,
+    .mainContainer::before {
+      height: 842px;
+    }
+  
+    /* .Headings{
+      margin: auto;
+    } */
+  
+    .Headings h1 {
+      font-size: 26px;
+    }
+  
+    .Headings h2 {
+      font-size: 60px;
+    }
+  
+    .Headings p {
+      font-size: 16px;
+    }
+  
+    .btns {
+      width: 100%;
+      flex-flow: column;
+      align-items: center;
+    }
+  
+    .btns button {
+      width: fit-content;
+      margin: 12px auto;
+      padding: 12px 16px;
+    }
+    .portfolioBtn{
+      margin-bottom: 1em;
+    }
+  
+    .hamburger {
+      border-radius: 6px;
+    }
+    .designs h3, .detailSec h1 {
+      font-size: 30px;
+    }
+    .secretDiv{
+      padding: 4px 1em;
+    }
+    footer{
+      padding: 10px 1.7em;
+    }
+    .footDetail {
+      padding: 8px;
+      flex-wrap: wrap;
+    }
+  
+    .footDetail p {
+      text-align: center;
+      width: 100%;
+      margin: 0 auto 10px auto;
+    }
+  
+    .linkIcon {
+      width: 80%;
+      margin: 10px auto;
+    }
+    footer,
+    footer::before{
+      height: 906px;
+    }
+  }
+  @media(max-width:468px) {
+    .designs{
+      padding: 10px 1em ;
+    }
+  }
+  @media(max-width:468px) {
+    footer,
+    footer::before{
+      height: 926px;
+    }
+  }
+  @media(max-width:398px) {
+    .header {
+      padding: 6px 1em;
+    }
+  
+    .logo img {
+      width: 145px;
+    }
+  
+    .hamburger {
+      width: 42px;
+      height: 42px;
+    }
+  
+    .mainContainer,
+    .mainContainer::before {
+      height: 720px;
+    }
+  
+    .Headings {
+      margin-top: 1.4em;
+      width: 94%;
+    }
+  
+    .Headings h1 {
+      font-size: 26px;
+    }
+  
+    .Headings h2 {
+      font-size: 56px;
+    }
+  
+    .Headings p {
+      font-size: 17px;
+      padding: 6px 2px;
+    }
+  
+    .btns {
+      padding: 4px;
+    }
+  
+    .detailDiv {
+      margin-top: -2.6em;
+      padding: .6em;
+    }
+  
+    .detail {
+      margin: 18px auto;
+      width: 96%;
+    }
+  
+    .designs {
+      padding: 10px;
+    }
+  
+    .aboutDesigns {
+      padding: 2px;
+    }
+  
+    .designs h3,.detailSec h1 {
+      font-size: 28px;
+    }
+  
+    .designs p {
+      padding: 14px 4px;
+    }
+  
+    .empowerdetail h2 {
+      font-size: 30px;
+    }
+  
+    .divInDiv {
+      width: 95%;
+    }
+    
+    .estimateDiv h1 {
+      font-size: 18px;
+      font-weight: 300;
+      margin: 10px;
+    }
+  
+    .estimateDiv button {
+      margin: 10px auto;
+    }
+    footer, footer::before {
+      height: 892px;
+  }
+  
+    .inFoot {
+      width: 100%;
+      padding: 2px;
+    }
+  
+    .footDetail {
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .footDetail p {
+      width: 98%;
+    }
+  
+    .linkIcon {
+      width: 85%;
+    }
+  }
+  @media(max-width:358px) {
+    footer, footer::before {
+      height: 942px;
+  }
+  }
+  @media(max-width:338px) {
+  
+    .Headings p {
+      line-height: 1.8em;
+    }
+    footer,
+    footer::before{
+      height: 950px;
+    }
+  }
+  @media(max-width:310px){
+    footer,
+    footer::before{
+      height: 970px;
+    }
+  }
+  @media(max-width:295px){
+    footer,
+    footer::before{
+      height: 1018px;
+    }
+  }
