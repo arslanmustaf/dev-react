@@ -1,12 +1,10 @@
 import React from 'react';
-import '../css/about.css';
-import Header from '../components/Header'
-import manImage from '../assets/manAbout.jpg'
+import './about.css';
+import manImage from '../../assets/manAbout.jpg'
 
 const About = () => {
   return (
     <>
-    <Header className="header"/>
     <div className="aboutContainer">
         <div className="heading"> <h1>We Do Things That Matters</h1></div>
         <div></div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/webdev.css'
+import './webdev.css'
 
 function Webdev() {
   return (

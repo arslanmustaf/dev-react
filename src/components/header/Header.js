@@ -1,9 +1,9 @@
 import { React, useState } from 'react';
-// import '../css/header.css'
+import './header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
 import { Link, useLocation } from 'react-router-dom';
-import logo from './logo.png';
+import logo from '../logo.png';
 
 
 function Header() {

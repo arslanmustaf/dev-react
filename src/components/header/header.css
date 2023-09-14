@@ -1,0 +1,248 @@
+header {
+    width: 100vw;
+    height: 85px;
+    position: absolute;
+    padding: 10px 4.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: .5s ease-in-out;
+    /* box-shadow: 0 0 8px 2px #d0dcff; */
+  }
+  
+  .header.active {
+    /* height: 392px; */
+    height: fit-content;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: .5s ease-in-out;
+    /* position: relative; */
+    background-color: black;
+    margin-bottom: -80px;
+    z-index: 1;
+  }
+  
+  .logo {
+    width: 250px;
+    /* padding: 2rem; */
+  }
+  
+  .logo img {
+    width: 160px;
+  }
+  
+  .headerList {
+    width: 58%;
+    padding: 6px 12px 6px 6px;
+  }
+  
+  .headerList.active {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 1s ease-in-out;
+    animation: list 1s ease-in-out;
+  }
+  
+  @keyframes list {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .headerList.active .mainUl {
+    flex-direction: column;
+  }
+  
+  .headerList.active .mainUl li {
+    margin: 10px auto;
+  }
+  
+  .mainUl {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .mainUl li {
+    transition: 0.8s;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 2px solid transparent;
+    padding: 4px;
+  }
+  
+  .mainUl a,
+  .mainUl p {
+    padding: 4px;
+    /* border: 2px solid transparent; */
+    transition: 0.5s;
+    color: #39b1fc;
+  
+  }
+  
+  .activePage {
+    padding: 4px;
+    border-bottom: 2px solid #39b1fc !important;
+    color: #39b1fc;
+  }
+  
+  .mainUl li:hover {
+    border-bottom: 2px solid #39b1fc;
+    color: #39b1fc;
+  }
+  
+  
+  .mainUl li:hover ul {
+  
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .mainUl li ul {
+    display: flex;
+    flex-flow: column;
+    border-radius: 20px;
+    /* box-shadow: 0 0 7px #d1c7c7; */
+    width: max-content;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 15px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .mainUl ul li {
+    list-style: none;
+    padding: 17px 20px;
+    border-bottom: 1px solid #d1c7c742;
+    width: 100%;
+  }
+  
+  .mainUl ul li:hover {
+    color: var(--primary);
+    border-bottom: 1px solid #d1c7c742;
+  }
+  
+  .hamburgerDiv {
+    display: none;
+    width: 80%;
+  }
+  
+  .hamburger {
+    margin: auto 15px;
+    float: right;
+    width: 42px;
+    height: 42px;
+    border: 1px solid var(--primary);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  
+  .line {
+    width: 70%;
+    height: 5px;
+    background-color: var(--primary);
+    margin: -3px;
+    position: relative;
+    transition: .3s;
+  }
+  
+  .line.active {
+    transition: .3s;
+  }
+  
+  .line.active:nth-child(1) {
+    transform: rotate(45deg);
+    top: 8px;
+  }
+  
+  .line.active:nth-child(2) {
+    display: none;
+  }
+  
+  .line.active:nth-child(3) {
+    transform: rotate(-45deg);
+    top: -5px;
+  }
+  @media(max-width:1206px) {
+    .headerList{
+      width: 60%;
+    }
+  }  
+  @media(max-width:1006px) {
+    .header {
+      width: 100%;
+    }
+    .logo {
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+  
+    nav {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .headerList {
+      display: none;
+    }
+  
+    .hamburgerDiv {
+      display: block;
+    }
+    .mainUl li ul {
+      display: flex;
+      flex-flow: column;
+      border-radius: 20px;
+      width: max-content;
+      background-color: #fff;
+      margin-top: 15px;
+      opacity: 0;
+       visibility: hidden;
+      width: 100%;
+      background-color: transparent;
+    }
+}  @media(max-width:926px) {
+    .header {
+      width: 100%;
+    }
+  }
+  @media(max-width:796px) {
+    .logo {
+      width: 98%;
+    }
+
+  }
+  @media(max-width:652px) {
+    .header {
+      padding: 4px 2.2em;
+    }
+}
+@media(max-width:562px) {
+.hamburger {
+    border-radius: 6px;
+  }
+}
+@media(max-width:398px) {
+    .header {
+      padding: 6px 1em;
+    }
+  
+    .logo img {
+      width: 145px;
+    }
+  
+    .hamburger {
+      width: 42px;
+      height: 42px;
+    }  
+  }

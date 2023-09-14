@@ -1,13 +1,13 @@
 import React from 'react'
-import '../css/portfolio.css'
-import slide1 from '../assets/Portfolio/slide1.jpg'
-import slide2 from '../assets/Portfolio/slide2.jpg'
-import slide3 from '../assets/Portfolio/slide3.jpg'
-import slide4 from '../assets/Portfolio/slide4.jpg'
-import slide5 from '../assets/Portfolio/slide5.jpg'
-import slide6 from '../assets/Portfolio/slide6.jpg'
-import slide7 from '../assets/Portfolio/slide7.jpg'
-import slide8 from '../assets/Portfolio/slide8.jpg'
+import './portfolio.css'
+import slide1 from '../../assets/Portfolio/slide1.jpg'
+import slide2 from '../../assets/Portfolio/slide2.jpg'
+import slide3 from '../../assets/Portfolio/slide3.jpg'
+import slide4 from '../../assets/Portfolio/slide4.jpg'
+import slide5 from '../../assets/Portfolio/slide5.jpg'
+import slide6 from '../../assets/Portfolio/slide6.jpg'
+import slide7 from '../../assets/Portfolio/slide7.jpg'
+import slide8 from '../../assets/Portfolio/slide8.jpg'
 
 
 function Portfolio() {

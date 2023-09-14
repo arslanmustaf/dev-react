@@ -1,6 +1,6 @@
 import React from 'react'
-import '../css/contact.css'
-import Map from '../components/Map'
+import './contact.css'
+import Map from '../../components/Map'
 
 function Contact() {
   return (
@@ -14,7 +14,7 @@ function Contact() {
     <div class="inTouch">
         <div class="contactForm">
             <h1>Let's Talk?</h1>
-            <form action="mailto:devsinntechnologies@gmail.com" method='post' enctype="text/plain">
+            <form action="mailto:marslanmustafa391@gmail.com" method='post' enctype="text/plain">
                 <input type="text" name='Name' placeholder="Name" required/>
                 <input type="email" name='Email' placeholder="Email" required/>
                 <input type="number" placeholder="Phone" required/>

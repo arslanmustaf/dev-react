@@ -1,5 +1,5 @@
 .aboutContainer {
-    background-image: url('../assets/about.jpg');
+    background-image: url('../../assets/about.jpg');
     /* background-position: center center; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,7 +81,7 @@
 .aboutWe{
     width: 100vw;
     height: 726px;
-    background-image: url(../assets/aboutmain.webp);
+    background-image: url(../../assets/aboutmain.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 120% 100%;

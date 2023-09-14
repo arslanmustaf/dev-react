@@ -1,11 +1,11 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons'
-import design from '../assets/more/design.jpg'
-import brouchures from '../assets/more/brouchures.jpg'
-import ui from '../assets/more/ui.jpg'
-import animate from '../assets/more/animate.jpg'
-import '../css/softwaredev.css'
+import design from '../../assets/more/design.jpg'
+import brouchures from '../../assets/more/brouchures.jpg'
+import ui from '../../assets/more/ui.jpg'
+import animate from '../../assets/more/animate.jpg'
+import './creativedes.css'
 
 function Webdev() {
     return (
